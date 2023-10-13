@@ -40,7 +40,7 @@ cursor: pointer;
 
 body{
 
-    background:url(background\ home.png);
+    background:url(../image/background\ home.png);
 	background-repeat: no-repeat;
 	margin-top: 90px;
 	background-size: 1600px 1024px;
