@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+	text-decoration: none;
+}
+header {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background-color: black;
+	justify-content: space-around;
+	align-items: center;
+	z-index:100;
+	
+}   
+.logo{
+	font-size: 30px;
+	font-weight:bolder ;
+	color: aliceblue;
+}
+.navbar {
+	gap: 100px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.navbar a{
+color: rgb(253, 253, 253);
+font-weight:bolder ;
+padding: 15px;
+cursor: pointer;
+}
+.navbar  :hover{
+	background: rgb(255, 196, 0);
+	border-radius: 5px;
+}
+
+body{
+
+    background:url(background\ home.png);
+	background-repeat: no-repeat;
+	margin-top: 90px;
+	background-size: 1600px 1024px;
+}
+.descrip h1{
+	line-height:100px;
+	text-underline-offset: 2px;
+    text-decoration: underline rgb(255, 196, 0);
+}
+.descrip{
+	margin:70px auto;
+	
+	width: 30%;
+	height: 20%;
+	text-align: center;
+	color: aliceblue;
+    font-size: 20px;
+}
+
+footer  {
+	background: transparent;
+	width: 40%;	
+	 margin-left: 469px;
+	 text-align: center;
+	 margin-bottom: 30px ;
+	 color: aliceblue;
+}
+footer img{
+	margin-left: 30px; 
+}
+
+footer h1{
+	margin-top: -80px;
+	line-height:100px;
+	text-underline-offset: 2px;
+    /* text-decoration: underline 5px rgb(255, 196, 0); */
+	color: aliceblue;
+    font-size: 35px;
+	font-weight:bolder ;
+}
+hr{
+	margin-left:155px ;
+	width: 300px;
+	height: 6px;
+	background-color: rgb(255, 255, 0);
+	border: rgb(255, 225, 0);
+	border-radius: 2px;
+}
+footer i{
+	font-size: 30px;
+	padding: 30px;
+}
+.back{
+	background: rgb(0, 0, 0);
+	color: aliceblue;
+
+}
+/* .preab{
+	color: aliceblue;
+} */
+.ab{
+	width: 470px;
+	text-align: justify;
+	margin:4px 0px auto -9px;
+	font-size:30px ;
+
+	color: aliceblue;
+}
+.ab hr{
+	margin:0px auto 7px -7px;
+	width: 300px;
+	height: 2px;
+}
+.ab h1{
+	margin-bottom: 5px;
+}
+.ab p{
+	margin-bottom: 20px;
+}
+.ab a{
+	margin-top: 10px;
+	border: 5px red solid;
+	padding: 10px;
+	border-radius: 10px;
+}
+.tot{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ab2 img{
+	height: 600px;
+	border-radius: 20px;
+}
+.ourmenu{
+	color:aliceblue;
+	text-align: center;
+	width:70% ;
+	margin: 140px auto;
+	
+}
+.ourmenu hr{
+	margin-left: 390px;
+}
+
+
+.img{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+
+
+.tacomenu{
+	color: aliceblue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size:30px ;
+	margin-bottom: 50px;
+}
+
+.tacomenu h1{
+	width: 300px;
+	text-align: center;
+	border: 3px rgb(255, 196, 0) solid;
+	border-radius: 8px;
+}
+.tacomenu img{
+	width: 300px;
+	border: 3px rgb(255, 196, 0) solid;
+	border-radius: 8px;
+}
+.formulaire{
+	color: black;
+	border-radius: 15;
+	margin:auto;
+	margin-top: 150px;
+	width: 500px;
+	background: rgb(255, 255, 255);
+	border-radius: 20px
+} 
+ form {
+	
+    max-width: 100%;
+	width: 400 px;
+    margin: 0 auto;
+	padding: 20px 30px 20px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 49px;
+}
+form hr{
+	margin: 0;
+	margin-bottom: 7px;
+	width: 170px;
+}
+.formulaire input{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(0, 200, 255);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	
+}
+button[type="submit"] {
+    background-color: #0075f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+	width: 90%;
+	margin-left: 38px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+	
+}
+.formulaire textarea {
+	display: inline-block;
+	width: 100%;
+	height: 50%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(0, 200, 255);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	resize: none;
+	margin-bottom: 30px;
+}
+.contacth1{
+	margin-top: 100px;
+	text-align: center;
+}
+.contacthr{
+	margin-left: 610px;
+	margin-bottom: -60px;
+	
+}
+.findus iframe{
+	width: 600px;
+	height: 400px;
+	padding: 100px;
+	border-radius: 175px;
+}
+.findus p{
+	width: 600px;
+	text-align: justify;
+}
+.findus{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
